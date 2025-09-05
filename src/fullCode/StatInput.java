@@ -45,12 +45,13 @@ public class StatInput {
             else if (choice == JOptionPane.NO_OPTION){
 
                 JOptionPane.showMessageDialog(null, "The stats were not saved");
+                System.exit(0);
 
             }
             else {
 
                 JOptionPane.showMessageDialog(null, "Cheeky cunt ;P");
-
+                System.exit(0);
             }
 
 
