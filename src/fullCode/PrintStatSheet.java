@@ -10,7 +10,7 @@ public class PrintStatSheet {
 
         StatInput get = new StatInput();
 
-        String characterStats = "your character name is : " + get.name + "\n" + "your character age is : " + get.age + "\n" + "your character class is : " + get.characterClass + "\n" + "Your weapon of choice is : " + get.weaponOfChoice + "\n\n" + "Thank you for using the form";
+        String characterStats = "your character name is : " + get.cName + "\n" + "your character age is : " + get.cAge + "\n" + "your character class is : " + get.characterClass + "\n" + "Your weapon of choice is : " + get.weaponOfChoice + "\n\n" + "Thank you for using the form";
 
         JOptionPane.showMessageDialog(null, characterStats);
 
