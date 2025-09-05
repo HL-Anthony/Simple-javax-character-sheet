@@ -6,8 +6,8 @@ public class StatInput {
 
     // variable declaration
     // Must be static to belong to the class and enable them to be accessed
-     static String name;
-     static int age;
+     static String cName;
+     static int cAge;
      static String characterClass;
      static String weaponOfChoice;
 
@@ -15,12 +15,12 @@ public class StatInput {
     // Method that gets user input form the user
     public static void GetStatInput() {
 
-         name = JOptionPane.showInputDialog("What is your character name ?");
+         cName = JOptionPane.showInputDialog("What is your character name ?");
 
             // Tests if the input is a hole number
             try {
 
-         age = Integer.parseInt(JOptionPane.showInputDialog("How old is your character ?"));
+         cAge = Integer.parseInt(JOptionPane.showInputDialog("How old is your character ?"));
 
             // if not a hole number
             } catch (Exception e) {
